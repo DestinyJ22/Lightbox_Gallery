@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>Lightbox Gallery</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <!-- start making your grid here -->
+  <header>
+
+    <footer>
+
+  </footer>
+
+  <!-- include any javascript below this line -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        autoplay: false,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        items : 10,
+        loop : true,
+        margin : 10,
+        nav : false,
+        dots: true
+    })
+   })
+  </script>
+
+</body>
+</html>
