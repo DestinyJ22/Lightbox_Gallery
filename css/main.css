@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+  }
+
+h1{
+font-family: sans-serif;
+color: #a453d4;
+}
+
+.lightbox-gallery a{
+  text-decoration: none;
+}
+
+.lightbox-gallery img{
+  border: 4px solid black;
+  padding: 4px;
+  margin: auto;
+}
+
+.lightbox-gallery img:hover{
+  box-shadow: 4px 4px 4px #fff;
+}
+
+footer{
+  color: #a453d4;
+}
